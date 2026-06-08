@@ -2,6 +2,12 @@
 
 Implementation of a two-stage deep learning framework (**YOLOv11-small + ResNet-34**) for automated detection of retained deciduous teeth (RDT) from real-world smartphone oral photographs.
 
+## Framework Overview
+
+![Two-stage RDT detection framework](Framework.png)
+
+*Figure 1. Overview of the proposed framework: Stage 1 (YOLOv11-small) detects the oral region; Stage 2 (ResNet-34) classifies retained vs. non-retained deciduous teeth. The pipeline supports training, evaluation, and deployment via a web API.*
+
 ## Overview
 
 This repository provides:
