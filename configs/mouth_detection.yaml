@@ -1,0 +1,10 @@
+# Stage 1: Mouth region detection (YOLOv11-small)
+# Update `path` to your local YOLO dataset root before training.
+
+path: data/yolo_mouth_dataset
+train: train
+val: val
+test: test
+
+names:
+  0: mouth

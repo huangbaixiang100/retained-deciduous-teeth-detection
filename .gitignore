@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data (not publicly released due to privacy)
+data/
+datasets/
+images/
+*.tar.gz
+*.zip
+
+# Training artifacts
+runs/
+wandb/
+log/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config
+.env
+*.local
